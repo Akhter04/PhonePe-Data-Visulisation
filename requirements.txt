@@ -1,0 +1,8 @@
+# Before Starting we need to install these 
+
+import streamlit as st
+import os
+import json
+import pandas as pd
+import sqlite3
+import plotly_express as px
