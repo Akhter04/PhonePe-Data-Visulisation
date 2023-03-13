@@ -1,6 +1,9 @@
-import streamlit as st
-import os
-import json
-import pandas as pd
-import sqlite3
-import plotly_express as px
+dash==2.8.1
+numpy==1.24.2
+pandas==1.5.3
+pip==23.0.1
+plotly==5.13.1
+plotly_express==0.4.1
+snscrape==0.5.0.20230113
+SQLAlchemy==2.0.4
+streamlit==1.19.0
