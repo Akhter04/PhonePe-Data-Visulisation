@@ -9,7 +9,6 @@ import plotly_express as px
 st.title(':violet[PhonePe Pulse Data Visualization(2018-2022)📈]')
 
 
-india_states= json.load(open("F:/python/phonepe/pulse/data/states_india.geojson", 'r'))
 #Agg_state_list--> to get the list of states in India
 path="F:/python/phonepe/pulse/data/aggregated/transaction/country/india/state/"
 Agg_state_list=os.listdir(path)
