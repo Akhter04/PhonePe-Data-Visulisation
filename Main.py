@@ -8,8 +8,13 @@ import plotly_express as px
 
 st.title(':violet[PhonePe Pulse Data Visualization(2018-2022)📈]')
 
-# Creating Options in app
 
+# CREATING CONNECTION WITH SQL SERVER
+connection = sqlite3.connect("phonepe pulse.db")
+cursor = connection.cursor()
+
+
+# Creating Options in app
 
 st.balloons()
 with st.container():
